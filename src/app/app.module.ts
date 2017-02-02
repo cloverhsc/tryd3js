@@ -4,10 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { PanamaPaperNetworkDirective } from './panama-paper-network.directive';
+import { Home2Component } from './home2/home2.component';
+import { MylineComponent } from './myline/myline.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    PanamaPaperNetworkDirective,
+    Home2Component,
+    MylineComponent
   ],
   imports: [
     BrowserModule,
